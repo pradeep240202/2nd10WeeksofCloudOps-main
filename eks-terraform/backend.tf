@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "devops-bkt-11"
     key    = "eks/terraform.tfstate"
-    region = "us-east-1"
+    region = "east-key-pair"
   }
 
   required_version = ">= 1.6.3"
